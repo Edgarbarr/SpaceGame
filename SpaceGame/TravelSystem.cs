@@ -11,5 +11,5 @@ namespace SpaceGame
             double velocity = Math.Pow((double)warpSpeed, (10 / 3)) + Math.Pow((10 - warpSpeed), (-11 / 3));
             return velocity;
         }
-    }s
+    }
 }
