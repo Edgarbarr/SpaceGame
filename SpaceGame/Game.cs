@@ -205,6 +205,7 @@ namespace SpaceGame
 
         public void TravelMenu()
         {
+            string userSelection=(PlanetName.Name) ;
             do
             {
                 DisplayTravelMenu();

@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Iplanet
 {
-
-PlanetName Name { get; set; }
-Coordinate Coordinates { get; set; }
-List<Item> ItemsList { get; set; }
-
-List<Item> GenerateItems();
-
+    class Placeholder
+    {
+        PlanetName Name { get; set; }
+        Coordinate Coordinates { get; set; }
+        List<Item> ItemsList { get; set; }
+        List<Item> GenerateItems { get; set; }
+    }
 }

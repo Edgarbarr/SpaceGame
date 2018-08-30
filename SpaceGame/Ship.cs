@@ -23,7 +23,7 @@ namespace SpaceGame
         {
             CargoCapacity = 10;
             CurrentWarpSpeed = 1;
-            CurrentPlanet = new Planet(PlanetName.Earth);
+            CurrentPlanet = new Planet(Planets.PlanetName.Earth);
             Upgrade = upgrade;
             MaxWarpSpeed = CalculateMaxWarpSpeed();
             FuelUnits = 10;
