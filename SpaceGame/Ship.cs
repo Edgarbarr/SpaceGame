@@ -64,11 +64,12 @@ namespace SpaceGame
         public void FlyTo(Planet planet)
         {
             CurrentPlanet = planet;
+            
             Console.WriteLine("Traveling...");
-
+            
             // Uncomment the line below to delay the program for 3000 milliseconds (3 seconds)
             // which simulates the ship is traveling in real time; Make sure you study Thread.Sleep before you use it
-            //Thread.Sleep(3000);
+            Thread.Sleep(3000);
             Console.WriteLine($"You have now arrived at: {CurrentPlanet.Name}");
         }
     }

@@ -150,7 +150,7 @@ namespace SpaceGame
             string userSelection = "";
             do
             {
-                DisplayShopMenu();
+                DisplayActionsMenu();
                 userSelection = Console.ReadLine().Trim().ToUpper();
             } while (!IsValidItem(userSelection));
         }

@@ -1,4 +1,5 @@
 
+using SpaceGame.Planets;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -90,7 +91,7 @@ namespace SpaceGame
                     return new List<Item>
                     {
                         new Item("One Mans Trash", 1500, 1, 1500),
-                        new Item("Malten Lava Droplet", 2800, 1, 2800)
+                        new Item("Molten Lava Droplet", 2800, 1, 2800)
                     };
                 case PlanetName.StarGaze:
                     return new List<Item>
