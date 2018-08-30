@@ -168,6 +168,10 @@ namespace SpaceGame
         private string BuildItemMenu()
         {
             StringBuilder itemMenu = new StringBuilder();
+            Console.WriteLine("Would you like to see Cargo or Ship Upgrades?");
+            string itemMenuUserInput = Console.ReadLine();
+                
+
             int itemNumber = 1;
             itemMenu.AppendLine("+---------------------------------------------+");
             itemMenu.AppendLine("\tName          Price          Weight(CargoUnits)");

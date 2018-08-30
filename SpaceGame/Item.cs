@@ -20,6 +20,8 @@ namespace SpaceGame
             CargoUnits = cargoUnits;
             SellValue = sellValue;
         }
+       
+
     }
 }
 
